@@ -1107,11 +1107,7 @@ void readfWFN(char * fileName,std::vector< Coordinate > &AtomN,std::vector<GTFty
 void InitInvariantContext(gsl_Type * Context)
 {
 
-    Context->m;
-    Context->evec;
-    Context->w;
-    Context->eval;
-    Context->perm;
+
       Context->m = gsl_matrix_alloc (3, 3);
      Context->evec = gsl_matrix_alloc(3,3);
    Context->w = gsl_eigen_symmv_alloc(3*4);
