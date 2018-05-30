@@ -249,6 +249,7 @@ extern int  RotateOperator(std::vector<GTFtype>&b2,std::vector< Coordinate >&Ato
 extern 	void InitInvariantContext(gsl_Type * Context);
 extern void FreeInvariantContext(gsl_Type * Context);
 extern  void  InvariantDirection(std::vector<GTFtype>bs,std::vector<double> MO_i,std::vector< Coordinate > AtomN_i,std::vector<double> MO_o,std::vector< Coordinate > AtomN_o,gsl_Type * Context);
+extern void readfWFN(char * fileName,std::vector< Coordinate > &AtomN,std::vector<GTFtype>&b,std::vector< std::vector<double> >&MOs);
 	
 
  
