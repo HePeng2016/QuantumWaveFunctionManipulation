@@ -12,11 +12,11 @@
 #include <list>
 #include "string.h"
 #include <float.h>
-#include </gsl/gsl_linalg.h>
-#include </gsl/gsl_matrix.h>
-#include </gsl/gsl_eigen.h>
-#include </gsl/gsl_sf_erf.h>
-#include </gsl/gsl_sort_vector.h>
+#include <./gsl/gsl_linalg.h>
+#include <./gsl/gsl_matrix.h>
+#include <./gsl/gsl_eigen.h>
+#include <./gsl/gsl_sf_erf.h>
+#include <./gsl/gsl_sort_vector.h>
 
 
 
