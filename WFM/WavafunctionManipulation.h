@@ -209,19 +209,7 @@ static int  typeSize[8]={1,3,6,10,15,21,28,36};
 static int  typeSizeBase[8]={0,1,4,10,20,35,56,84};
 
 
-int ft (int i)
-{
-  int value=1;
 
-    if(i==0)
-        return 1;
-    for(;i>1;i--)
-    {
-       value=value*i;
-    }
-
-  return value;
-}
 
 template <typename T>
 std::vector<size_t> ordered(std::vector<T> const& values,bool ascending) {
