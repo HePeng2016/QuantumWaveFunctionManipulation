@@ -245,6 +245,11 @@ std::vector<size_t> ordered(std::vector<T> const& values,bool ascending) {
 }
 
 extern double overlapIntegral(unsigned int itype1,double exp1,unsigned int itype2,double exp2,Coordinate A ,Coordinate B);
+extern int  RotateOperator(std::vector<GTFtype>&b2,std::vector< Coordinate >&AtomN,std::vector< double >&MO_Old,std::vector< double >&MO_New,Matrix rotationM);
+extern 	void InitInvariantContext(gsl_Type * Context);
+extern void FreeInvariantContext(gsl_Type * Context);
+extern  void  InvariantDirection(std::vector<GTFtype>bs,std::vector<double> MO_i,std::vector< Coordinate > AtomN_i,std::vector<double> MO_o,std::vector< Coordinate > AtomN_o,gsl_Type * Context);
+	
 
  
 
