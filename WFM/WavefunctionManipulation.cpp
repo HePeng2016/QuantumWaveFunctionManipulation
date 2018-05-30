@@ -1,5 +1,17 @@
 #include  "WavafunctionManipulation.h"
+int ft (int i)
+{
+  int value=1;
 
+    if(i==0)
+        return 1;
+    for(;i>1;i--)
+    {
+       value=value*i;
+    }
+
+  return value;
+}
 
 int  RotateOperator(std::vector<GTFtype>&b2,std::vector< Coordinate >&AtomN,std::vector< double >&MO_Old,std::vector< double >&MO_New,Matrix rotationM)
 {
