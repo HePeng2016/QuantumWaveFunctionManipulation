@@ -1,3 +1,5 @@
+ #include "WFM/WavafunctionManipulation.h"
+
  gsl_Type Context;
  char * buffer;
  buffer = (char *)malloc(sizeof(char)*1024);
